@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AboutScreen extends StatelessWidget {
-  const AboutScreen({super.key});
+class AboutGalaksiScreen extends StatelessWidget {
+  const AboutGalaksiScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class AboutScreen extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/images/background.png"),
+              image: AssetImage("assets/images/background.jpg"),
               fit: BoxFit.cover,
             ),
           ),
@@ -32,7 +32,7 @@ class AboutScreen extends StatelessWidget {
                 SizedBox(height: 20.0),
                 CircleAvatar(
                   radius: 50.0,
-                  backgroundImage: AssetImage('assets/images/travel_logo.png'),
+                  backgroundImage: AssetImage('assets/images/backgroundgalaksi.jpg'),
                 ),
                 SizedBox(height: 20.0),
                 Card(
@@ -43,7 +43,7 @@ class AboutScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          'Explore the World with Us',
+                          'Jelajahi tentang Galaksi',
                           style: TextStyle(
                             fontSize: 24.0,
                             fontWeight: FontWeight.bold,
@@ -51,7 +51,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'We are dedicated to providing the best travel experiences to our customers. Our mission is to help you discover the beauty and wonders of the world, one destination at a time.',
+                          'Galaksi adalah sebuah sistem bintang yang memiliki ukuran sangat besar, tersusun atas bintang-bintang yang jumlahnya tak terhitung banyaknya.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -69,7 +69,7 @@ class AboutScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          'Our Vision',
+                          'Macam-macam Galaksi',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -77,7 +77,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'To be the leading travel company that offers unique and unforgettable travel experiences across the globe.',
+                          '1. Galaksi Spiral, 2. Galaksi Elips, 3. Galaksi Lentikular, 4. Galaksi Tidak Beraturan',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -95,7 +95,7 @@ class AboutScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          'Our Services',
+                          'Sejarah Galaksi',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
